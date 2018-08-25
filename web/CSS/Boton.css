@@ -1,0 +1,15 @@
+
+/* 
+    Created on : 16/07/2018, 11:46:10 AM
+    Author     : USER
+*/
+
+.btn-boton{
+    background: orange;
+    color: #fff;
+    font-weight: bold;  
+    margin: auto;
+    padding: 10px 40px;
+    cursor: pointer;
+    border-radius: 5px;
+}

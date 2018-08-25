@@ -1,0 +1,96 @@
+/* 
+    Created on : 14/07/2018, 04:51:13 PM
+    Author     : USER
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;  /*COLOCO EL MARGEN EN 0 PARA TRABAJARLO MEJOR*/
+    font-family: sans-serif; /*FUENTE DE LAS LETRAS*/
+     background:  #0097e6;
+}
+
+.form-register{
+    width: 95%; 
+    max-width: 500px;
+    margin: auto; /*MARGEN CENTRADO AUTOMATICO*/
+    background: white;  /*FONDO*/
+    border-radius: 7px;  /*CURVATURA DE LAS ESQUINAS DE LA CAJA*/
+    margin-top: 2%;
+}
+
+.fomr-titulo{
+    background: deepskyblue;
+    color: #fff;
+    padding: 20px;
+    text-align: center;   /*TEXTO CENTRADO*/
+    font-weight: 100;   /*ANCHO DEL FONDO DE LAS LETRAS*/
+    font-size: 30px; /*TAMAÑO DE LAS LETRAS*/
+    border-top-left-radius: 7px;  /*CURVATURA DE LA ESQUINA IZQUIERDA Y DERECHA*/
+    border-top-right-radius: 7px;
+    border-bottom: 5px solid gold;   /*BORDE DE LA CAJA ABAJO EN ROJO SOLIDO CON 5PX*/
+}
+
+.contenedor-inputs{        /*TODOS LOS INPUTS*/
+    padding: 5px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+input{                    /* LOS INPUTS COMO EL DE USUARIO Y CONTRASEÑA Y BOTON*/
+    margin-bottom: 5px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid darkgray;
+}
+
+.input-100{            /* INPUT MÁS GRANDES*/
+    width: 100%;  /*que ocupen el 100% de la caja, su espacio definido*/
+}
+
+.btn-agregar{   /*CARACTERISTICAS DEL BOTON REGISTRAR*/
+    background: crimson;
+    color: #fff;
+    font-weight: bold;  /* ANCHO DE LA LETRA DEL BOTON*/
+    margin: auto;
+    padding: 10px 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+.btn-agregar:active{          /*BOTON REGISTRAR CUANDO SE PRESIONA CRECE*/
+    transform: scale(1.05);
+}
+
+.btn-regresar{   /*CARACTERISTICAS DEL BOTON REGISTRAR*/
+    background: orange;
+    color: #fff;
+    font-weight: bold;  /* ANCHO DE LA LETRA DEL BOTON*/
+    margin: auto;
+    padding: 10px 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+.btn-registrar:active{          /*BOTON REGISTRAR CUANDO SE PRESIONA CRECE*/
+    transform: scale(1.05);
+}
+
+.contenedor-btn{
+    margin: auto;
+}
+
+.input-10{
+    font-size: 16px;
+    color: #001F3F;
+    margin-bottom: 20px;
+    margin-left: 20px;
+     width: 100%;
+    
+}

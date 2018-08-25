@@ -1,0 +1,12 @@
+h1{
+    color: #fff;
+    text-align: center;
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 20%;
+    background: crimson;
+     padding: 20px;
+     border-bottom: 5px solid #fff;
+     border-top: 5px solid #fff;
+}
